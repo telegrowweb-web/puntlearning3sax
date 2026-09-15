@@ -228,8 +228,8 @@
   </div>
 
   <script>
- // document.addEventListener("DOMContentLoaded", function () {
-//   let countdown = 5;
+ document.addEventListener("DOMContentLoaded", function () {
+  let countdown = 5;
    const joinBtn = document.getElementById("joinBtn");
     const countdownEl = document.getElementById("countdown");
     if (!joinBtn) return;
@@ -239,9 +239,9 @@
       countdown--;
       if (countdownEl) countdownEl.innerText = countdown;
       if (countdown <= 0) { clearInterval(timer); window.location.href = redirectUrl; }
-  //  }, 1000);
-//  });
-  //</script>
+   }, 1000);
+  });
+  </script>
 
 <!-- Meta Pixel Code -->
 <script>
